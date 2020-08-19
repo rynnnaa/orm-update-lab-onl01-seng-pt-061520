@@ -56,6 +56,6 @@ class Student
     new_student.id = row[0]
     new_student.name = row[1]
     new_student.grade = row[2]
-    new_student(row)
+    new_student(id, name, grade)
   end
 end
